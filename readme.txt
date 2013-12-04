@@ -46,8 +46,8 @@ Absolutely! I have even written a quick tutorial on how to do just that: http://
 You can remove the donate link by changing the line $show_donation = "true"; to $show_donation = "false"; in shortcode-lister.php. This plugin is free to use, and a donation is not required, but does help to encourage future development of this and other plugins.
 
 == Screenshots ==
-1. Shortcode Lister menu screenshot1.png.
-2. Shortcode Lister menu shown on the Page editor screen screenshot2.png.
+1. Shortcode Lister menu screenshot-1.png
+2. Shortcode Lister menu shown on the Page editor screen screenshot-2.png
 
 == Changelog ==
 = 1.0 =
