@@ -2,8 +2,9 @@
    /*
    Plugin Name: Shortcode Lister
    Plugin URI: http://oizuled.com/wordpress-plugins/shortcode-lister-wordpress-plugin/
+   Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYJ3VY8EZNUUU
    Description: A plugin to display a list of all the shortcodes available for use on the post and page edit screens.
-   Version: 1.0
+   Version: 1.0.1
    Author: Scott DeLuzio
    Author URI: http://oizuled.com
    License: GPL2
@@ -46,6 +47,9 @@ function get_all_shortcodes() {
 			<a href="#" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYJ3VY8EZNUUU');">
 				<img style="float:right;" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" width="147" height="47">
 			</a>
+			<p>To report any issues with this plugin, please use the <a href="http://oizuled.com/contact/shortcode-lister-reporting-form/">contact form</a>, or visit the <a href='http://wordpress.org/support/plugin/shortcode-lister'>plugin support page on WordPress.org</a>.</p>
+			<p><a href="https://twitter.com/oizuled" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @oizuled</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 		</div>
 		<?php } ?>
 	</div>
