@@ -1,10 +1,10 @@
 === Edit Screen Shortcode Lister ===
 Contributors: scott.deluzio
 Tags: shortcode, plugin, list, 
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYJ3VY8EZNUUU
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN
 Requires at least: 2.5.0
-Tested up to: 3.9
-Stable tag: 1.0.2
+Tested up to: 4.0
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,10 @@ You can remove the donate link by changing the line $show_donation = "true"; to 
 2. Shortcode Lister menu shown on the Page editor screen screenshot-2.png
 
 == Changelog ==
+= 1.0.3 =
+* Minor update
+* Updated to 4.0
+
 = 1.0.2 =
 * Minor update
 * Updated to 3.8
@@ -61,6 +65,6 @@ You can remove the donate link by changing the line $show_donation = "true"; to 
 * Initial release.
 
 == Upgrade Notice ==
-= 1.0.2 =
+= 1.0.3 =
 * Minor update
-* Updated to 3.8
+* Updated to 4.0
