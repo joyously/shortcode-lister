@@ -1,15 +1,16 @@
 <?php
    /*
    Plugin Name: Shortcode Lister
-   Plugin URI: http://oizuled.com/wordpress-plugins/shortcode-lister-wordpress-plugin/
+   Plugin URI: http://surpriseazwebservices.com/wordpress-plugins/shortcode-lister-wordpress-plugin/
+   Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN
    Description: A plugin to display a list of all the shortcodes available for use on the post and page edit screens.
-   Version: 1.0
+   Version: 1.0.3
    Author: Scott DeLuzio
-   Author URI: http://oizuled.com
+   Author URI: https://surpriseazwebservices.com
    License: GPL2
    */
    
-	/*  Copyright 2013  Scott DeLuzio  (email : scott (at) oizuled.com)
+	/*  Copyright 2013  Scott DeLuzio  (email : scott (at) surpriseazwebservices.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -43,9 +44,13 @@ function get_all_shortcodes() {
 		<?php if ($show_donation != "false") { ?>
 		<div style="float:right;">
 			<p>If this plugin has helped you out at all, please consider making a donation to encourage future updates.<br />Your generosity is appreciated!</p>
-			<a href="#" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYJ3VY8EZNUUU');">
+			<a href="#" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN');">
 				<img style="float:right;" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" width="147" height="47">
 			</a>
+			<p>To report any issues with <strong>this plugin</strong>, please use the <a href='http://wordpress.org/support/plugin/shortcode-lister'>plugin support page on WordPress.org</a>.</p>
+			<p>For all other WordPress support, please check out the following <a href="https://surpriseazwebservices.com/services/wordpress-site-install/">site set-up</a>, <a href="https://surpriseazwebservices.com/services/wordpress-maintenance-support/">24x7 support</a>, and other <a href="https://surpriseazwebservices.com/services/">WordPress services</a>.</p>
+			<p><a href="https://twitter.com/SurpriseWebSvc" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @SurpriseWebSvc</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 		</div>
 		<?php } ?>
 	</div>
