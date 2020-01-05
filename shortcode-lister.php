@@ -41,7 +41,7 @@ function shortcode_list_menu( $editor_id ) {
 	echo $shortcodes_list;
 	echo '</select>';
 	
-	wp_enqueue_script( 'shortcode-select', plugins_url( 'js/shortcode-list.js', __FILE__ ), '2.6', true );
+	wp_enqueue_script( 'shortcode-select', plugins_url( 'js/shortcode-lister.js', __FILE__ ), '2.6', true );
 }
 add_action( 'media_buttons', 'shortcode_list_menu', 15 );
 
