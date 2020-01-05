@@ -1,17 +1,17 @@
-=== Shortcode Lister ===
+=== Shortcode List ===
 Contributors: scott.deluzio
 Tags: shortcode, list
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTGBPYSDDUGVN
 Requires at least: 2.7.0
 Tested up to: 5.2.0
-Stable tag: 2.5
+Stable tag: 2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A plugin for the editor, to insert shortcodes available for use, with all their attributes.
 
 == Description ==
-Shortcode Lister is a plugin designed to display a drop down menu of all the shortcodes available to use in your posts and pages. This menu will allow you to select a shortcode and have it automatically inserted into the editor for you.
+Shortcode List is a plugin designed to display a drop down menu of all the shortcodes available to use in your posts and pages. This menu will allow you to select a shortcode and have it automatically inserted into the editor for you.
 
 If you have downloaded several plugins that produce their own custom shortcodes, it may become cumbersome to remember all of the shortcodes you have available to use. In a way this defeats the purpose of having an easy to use shortcode, if it is too difficult to remember them all.
 
@@ -46,6 +46,9 @@ Simply click where you want the shortcode to be inserted in your post editor, th
 2. Shortcode Lister settings allows you to exclude some shortcodes from your drop down menu. screenshot-2.png
 
 == Changelog ==
+= 2.6 =
+* Try to do it all in the plugin.
+
 = 2.5 =
 * Pared down the code to a minimum.
 
